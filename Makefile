@@ -6,7 +6,7 @@ standard = c++20
 all: 34_sk_concept
 
 34_sk_concept: main.cpp
-	gcc -o 34_sk_concept main.cpp -lstdc++ -std=${standard}
+	gcc -o 34_sk_concept main.cpp -lstdc++ -std=${standard} -fconcepts-diagnostics-depth=2
 
 clean:
 	-rm -f 34_sk_concept *.o 2>/dev/null
