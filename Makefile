@@ -9,4 +9,4 @@ all: 34_sk_concept
 	gcc -o 34_sk_concept main.cpp -lstdc++ -std=${standard} -fconcepts-diagnostics-depth=2
 
 clean:
-	-rm -f 34_sk_concept *.o 2>/dev/null
+	-rm -f 34_sk_concept 2>/dev/null
